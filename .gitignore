@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Device backups and reports
+backups/*
+reports/*
+!backups/.gitkeep
+!reports/.gitkeep
+
+# macOS
+.DS_Store
